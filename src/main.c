@@ -1,11 +1,11 @@
 #include "raylib.h"
 
-#define SW 800
-#define SH 800
+#define SW 800 // screen width
+#define SH 800 // screen height
 
 #define TITLE "TITLE"
 
-#define TFPS 120
+#define TFPS 120 // target FPS
 
 int main(void)
 {
