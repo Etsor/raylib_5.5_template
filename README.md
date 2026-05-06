@@ -36,3 +36,7 @@ Change `TARGET_NAME` value in the Makefile:
 ```makefile
 TARGET_NAME := aboba
 ```
+
+---
+- [Raylib repo](https://github.com/raysan5/raylib)
+- [Raylib license](https://github.com/raysan5/raylib/blob/master/LICENSE)
