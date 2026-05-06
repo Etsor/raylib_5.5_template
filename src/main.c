@@ -1,7 +1,7 @@
 #include "raylib.h"
 
-#define SW 800 // screen width
-#define SH 800 // screen height
+#define WW 800 // window width
+#define WH 800 // window height
 
 #define TITLE "TITLE"
 
@@ -9,13 +9,15 @@
 
 int main(void)
 {
-    InitWindow(SW, SH, TITLE);
+    InitWindow(WW, WH, TITLE);
     SetTargetFPS(TFPS);
+    
     while (!WindowShouldClose()) {
         BeginDrawing(); {
 
         } EndDrawing();
     }
+    
     CloseWindow();
     return 0;
 }
