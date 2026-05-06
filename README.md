@@ -31,8 +31,8 @@ Makefile detects your OS automatically and picks the right raylib build. The bin
 
 ## Renaming the Binary
  
-Change `TARGET` in the Makefile:
+Change `TARGET_NAME` value in the Makefile:
  
 ```makefile
-TARGET := aboba
+TARGET_NAME := aboba
 ```

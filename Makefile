@@ -16,7 +16,8 @@ endif
 
 CC       := gcc
 SRC      := $(wildcard ./src/*.c)
-TARGET   := NAME
+TARGET_NAME := TARGET-NAME
+TARGET   := $(TARGET_NAME)
 CFLAGS   := -Wall -Wextra -Wno-unused-function -O3
 
 ifeq ($(PLATFORM), linux)
@@ -39,7 +40,7 @@ ifeq ($(PLATFORM), windows)
 	INCLUDE := -I./thirdparty/raylib-5.5_win64_mingw-w64/include
 	LDFLAGS := ./thirdparty/raylib-5.5_win64_mingw-w64/lib/libraylib.a \
 	           -lopengl32 -lgdi32 -lwinmm -lkernel32 -luser32
-	TARGET := NAME.exe
+	TARGET := $(TARGET_NAME).exe
 endif
 
 all:
