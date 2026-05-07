@@ -14,6 +14,7 @@ int main(void)
     
     while (!WindowShouldClose()) {
         BeginDrawing(); {
+            ClearBackground(BLACK);
 
         } EndDrawing();
     }
