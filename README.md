@@ -27,6 +27,7 @@ Makefile detects your OS automatically and picks the right raylib build. The bin
 | `make` | Build and run |
 | `make wr` | Build only |
 | `make d` | Build and run with `-DDEBUG` |
+| `make dwr` | Build only, with `-DDEBUG` |
 | `make clean` | Remove the binary 
 
 ## Renaming the Binary
