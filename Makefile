@@ -52,5 +52,8 @@ wr:
 d:
 	$(CC) $(CFLAGS) $(INCLUDE) $(SRC) -DDEBUG $(LDFLAGS) -o $(TARGET) && ./$(TARGET)
 
+dwr:
+	$(CC) $(CFLAGS) $(INCLUDE) $(SRC) -DDEBUG $(LDFLAGS) -o $(TARGET)
+
 clean:
 	rm -f $(TARGET)
